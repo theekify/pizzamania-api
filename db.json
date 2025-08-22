@@ -1,11 +1,14 @@
 {
   "pizzas": [
-    { "id": 1, "name": "Margherita", "price": "1200", "image": "https://i.imgur.com/abc1.jpg" },
-    { "id": 2, "name": "Pepperoni", "price": "1500", "image": "https://i.imgur.com/abc2.jpg" }
+    { "id": 1, "name": "Margherita", "price": "1200", "image": "https://i.imgur.com/1.jpg" },
+    { "id": 2, "name": "Pepperoni",  "price": "1500", "image": "https://i.imgur.com/2.jpg" },
+    { "id": 3, "name": "Veggie",     "price": "1000", "image": "https://i.imgur.com/3.jpg" }
   ],
   "branches": [
     { "id": 1, "name": "Colombo", "address": "Colombo 07", "phone": "011223344" },
-    { "id": 2, "name": "Galle", "address": "Galle Fort", "phone": "091223344" }
+    { "id": 2, "name": "Galle",   "address": "Galle Fort", "phone": "091223344" }
+  ],
+  "orders": [
+    { "id": 1, "userEmail": "john@example.com", "items": [1,2], "total": "2700", "status": "preparing" }
   ]
 }
-
